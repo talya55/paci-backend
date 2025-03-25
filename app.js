@@ -50,7 +50,6 @@ app.use('/api/paci-web', paciWebRoutes);
 app.use('/api/circulars', circularRoutes);
 
 connectDB();
-connectDB();
 
 const conn = mongoose.connection;
 
